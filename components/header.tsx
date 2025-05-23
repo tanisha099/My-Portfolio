@@ -18,7 +18,6 @@ const navItems = [
   { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
   { name: "Education", href: "#education" },
-  { name: "Blog", href: "#blog" },
   { name: "Contact Me", href: "#contact" },
 ]
 
@@ -100,7 +99,7 @@ export default function Header() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <span className="text-2xl font-bold gradient-text">NM</span>
+            <span className="text-2xl font-bold gradient-text">TM</span>
           </motion.div>
         </Link>
 

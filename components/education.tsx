@@ -21,14 +21,14 @@ export default function Education() {
                     <GraduationCap className="h-8 w-8 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold">Bachelor of Engineering: Computer Engineering</h3>
-                    <p className="text-muted-foreground">Kantipur Engineering College (2021)</p>
+                    <h3 className="text-xl font-bold">Bachelor of Engineering: Computer Science Engineering</h3>
+                    <p className="text-muted-foreground">Madhav Institute of Technology & Science, Gwalior, Madhya Pradesh INDIA <span>2021-2025</span> </p>
                   </div>
                 </div>
                 <div className="p-6">
                   <p className="text-muted-foreground">
                     Completed a comprehensive computer engineering program with a focus on software development,
-                    algorithms, data structures, and system design. Gained a strong foundation in computer science
+                    Web Developement, data structures, and design. Gained a strong foundation in computer science
                     principles and engineering practices that have been instrumental in my professional career.
                   </p>
                 </div>

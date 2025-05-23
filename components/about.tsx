@@ -9,19 +9,9 @@ export default function About() {
       description: "Expertise in JavaScript, TypeScript, React.js, Node.js, and Laravel",
     },
     {
-      icon: <Server className="h-10 w-10 text-primary" />,
-      title: "Cloud Solutions",
-      description: "Proficient with AWS services including SQS, EventBridge, Lambda, and Step Functions",
-    },
-    {
       icon: <Users className="h-10 w-10 text-primary" />,
       title: "Team Leadership",
       description: "Led diverse teams of 15+ members across development, design, DevOps, and QA",
-    },
-    {
-      icon: <Globe className="h-10 w-10 text-primary" />,
-      title: "Global Collaboration",
-      description: "Coordinated with remote teams across the US, Australia, and Nepal",
     },
   ]
 

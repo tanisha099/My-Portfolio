@@ -5,78 +5,39 @@ import Skills from "./skills-content"
 export default function Experience() {
   const experiences = [
     {
-      title: "Lead Engineer",
-      company: "Leapfrog Technology / Trayt Health",
-      period: "Jan 2025 - Present",
-      location: "Kathmandu, Nepal",
+      title: "React Developer",
+      company: "Pseudo Soft",
+      period: "July 2024",
       achievements: [
-        "Leading the engineering team in developing innovative healthcare solutions for Trayt Health",
-        "Architecting scalable and secure systems for handling sensitive healthcare data",
-        "Implementing advanced AWS infrastructure for high availability and compliance",
-        "Mentoring junior engineers and establishing best practices for code quality and security",
-        "Collaborating with product and design teams to deliver exceptional user experiences",
+        "Successfully developed and deployed multiple responsive web components using React.js for real client projects.",
+        "Collaborated with backend developers and designers to ensure smooth API integration and consistent UI/UX.",
+        "Optimized web performance by applying best practices in React, reducing component re-renders and improving load time",
+        "Took initiative to refactor legacy code into modular components, improving maintainability and scalability",
+        "Gained hands-on experience in version control using Git and participated in team code reviews and agile meetings.",
+
       ],
     },
     {
-      title: "Senior Software Engineer",
-      company: "Leapfrog Technology / Trayt Health",
-      period: "July 2023 - Jan 2025",
-      location: "Kathmandu, Nepal",
+      title: "Wordpress developer",
+      company: "Perfect jugado",
+      period: "Nov 2024",
       achievements: [
-        "Coordinated development efforts with remote teams across the US, Australia, and Nepal to deliver complex healthcare solutions for Trayt Health",
-        "Reduced the frontend bundle size by 20% through advanced optimization techniques",
-        "Optimized backend API performance, achieving over 200% faster response times",
-        "Leveraged AWS services (SQS, EventBridge, Lambda, Step Functions) to automate critical tasks",
-        "Mentored and coached team members, accelerating onboarding and enhancing team productivity",
+        "Successfully designed and developed the official website of Perfect Jugaduo using WordPress, delivering a fully responsive and user-friendly interface",
+        "Customized themes and integrated essential plugins to enhance website performance, SEO, and user engagement.",
+        "Collaborated closely with a dynamic startup team, ensuring seamless communication and alignment of project goals.",
+        "Contributed creative ideas for branding and layout, helping the startup build a strong online presence from scratch",
+      
       ],
     },
     {
-      title: "Software Engineer",
-      company: "Leapfrog Technology",
-      period: "Sep 2021 - July 2023",
-      location: "Kathmandu, Nepal",
+      title: "Full Stack Developer",
+      company: "Nullclass Pvt.Ltd. ",
+      period: "junuary 2025",
       achievements: [
-        "Led and managed a diverse software development team comprising over 15 members",
-        "Designed and implemented solutions that consistently exceeded performance benchmarks",
-        "Streamlined project planning by working closely with product owners",
-        "Orchestrated the successful release of major application versions",
-        "Emerged as the primary point of contact for both project stakeholders and management",
-      ],
-    },
-    {
-      title: "Associate Software Engineer",
-      company: "Leapfrog Technology",
-      period: "Sep 2020 - Sep 2021",
-      location: "Kathmandu, Nepal",
-      achievements: [
-        "Collaborated with senior developers and product owners to deliver high-quality applications",
-        "Employed a meticulous approach to debugging code and identifying root causes of issues",
-        "Contributed to system improvement efforts by conducting thorough system analysis",
-        "Played a pivotal role in enhancing system performance through strategic optimization",
-        "Innovatively designed and developed a browser extension, streamlining workflow processes",
-      ],
-    },
-    {
-      title: "Software Engineer Intern",
-      company: "Leapfrog Technology",
-      period: "Jun 2020 - Sep 2020",
-      location: "Kathmandu, Nepal",
-      achievements: [
-        "Acquired proficiency in JavaScript and harnessed the browser canvas API",
-        "Recreated Pac-man game with vanilla JS while integrating various path-finding algorithms",
-        "Successfully delved into backend development with Node.js and honed frontend skills with React.js",
-      ],
-    },
-    {
-      title: "Web Application Developer",
-      company: "Technorio Inc.",
-      period: "Jan 2019 - Jun 2020",
-      location: "Kathmandu, Nepal",
-      achievements: [
-        "Delivered projects across diverse industries, including insurance management, video streaming, and ticket management",
-        "Collaborated closely with the business development team, offering engineering insights",
-        "Utilized GitHub actions to automate deployment pipelines",
-        "Applied server deployment expertise to successfully launch a range of web applications",
+        "Completed a hands-on internship focused on full-stack web development, gaining practical exposure to real-world coding practices.",
+        "Worked on multiple front-end and back-end tasks, improving skills in HTML, CSS, JavaScript, Node.js and API integration.",
+        " Built and deployed mini projects under mentorship, showcasing ability to learn quickly and implement solutions independently",
+        " Improved problem-solving and debugging skills, consistently meeting deadlines and quality standards.",
       ],
     },
   ]
@@ -106,7 +67,6 @@ export default function Experience() {
                         <Badge variant="outline" className="mb-1 md:mb-0">
                           {experience.period}
                         </Badge>
-                        <span className="text-sm text-muted-foreground">{experience.location}</span>
                       </div>
                     </div>
                     <ul className="mt-4 space-y-2">

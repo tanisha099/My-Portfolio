@@ -9,20 +9,17 @@ export default function Contact() {
     {
       icon: <Mail className="h-6 w-6 text-primary" />,
       title: "Email",
-      value: "t3w4e0rdaf6f@opayq.com",
-      link: "mailto:t3w4e0rdaf6f@opayq.com",
+      value: "tanimuvel1234@gmail.com",
     },
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: "Location",
-      value: "Kathmandu, Nepal",
-      link: "https://maps.google.com/?q=Kathmandu,Nepal",
+      value: "Indore ,Madhya Pradesh",
     },
     {
       icon: <Phone className="h-6 w-6 text-primary" />,
       title: "Phone",
-      value: "Available on request",
-      link: null,
+      value: "9302814298",
     },
   ]
 
@@ -32,9 +29,9 @@ export default function Contact() {
         <div className="container px-4 md:px-6 mx-auto">
           <div className="space-y-12">
             <div className="space-y-4 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Get In Touch</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">  Want To Connect With Me</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Have a project in mind or want to discuss opportunities? I'd love to hear from you!
+Here is Our Contact Info..
               </p>
             </div>
 
@@ -95,18 +92,10 @@ export default function Contact() {
                       <div className="bg-primary/10 p-3 rounded-full mt-1">{info.icon}</div>
                       <div>
                         <h3 className="font-medium">{info.title}</h3>
-                        {info.link ? (
                           <a
-                            href={info.link}
-                            className="text-muted-foreground hover:text-primary transition-colors"
-                            target={info.title === "Location" ? "_blank" : undefined}
-                            rel={info.title === "Location" ? "noopener noreferrer" : undefined}
                           >
                             {info.value}
                           </a>
-                        ) : (
-                          <p className="text-muted-foreground">{info.value}</p>
-                        )}
                       </div>
                     </CardContent>
                   </Card>
@@ -118,7 +107,7 @@ export default function Contact() {
                     <p className="text-sm text-muted-foreground mb-4">Find me on these platforms</p>
                     <div className="flex gap-4">
                       <Button variant="outline" size="icon" asChild>
-                        <a href="https://github.com/maskeynihal" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/tanisha099" target="_blank" rel="noopener noreferrer">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -138,7 +127,7 @@ export default function Contact() {
                         </a>
                       </Button>
                       <Button variant="outline" size="icon" asChild>
-                        <a href="https://linkedin.com/in/maskeynihal" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/tanishamuvel29/" target="_blank" rel="noopener noreferrer">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -156,26 +145,6 @@ export default function Contact() {
                             <circle cx="4" cy="4" r="2"></circle>
                           </svg>
                           <span className="sr-only">LinkedIn</span>
-                        </a>
-                      </Button>
-                      <Button variant="outline" size="icon" asChild>
-                        <a href="mailto:t3w4e0rdaf6f@opayq.com">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            className="h-5 w-5"
-                          >
-                            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
-                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-                          </svg>
-                          <span className="sr-only">Email</span>
                         </a>
                       </Button>
                     </div>
